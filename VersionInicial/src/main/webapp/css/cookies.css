@@ -1,0 +1,91 @@
+*{  border:0;
+    margin: 0;
+    padding: 0;
+}
+body{
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position:0px 0px;
+}
+header{
+  width: 100%;
+  border-bottom: 2px solid black; 
+}
+.navbar{
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+.navbar a{
+  font-size: 1.3em;
+}
+.row{
+  margin: auto;
+  border-bottom: 2px solid black;
+}
+.top-nav-right{
+  float:right;
+  margin-right: 40px;
+  padding-top: 10px;
+}
+.logos img{
+  width: 30px;
+  height: 30px;
+}
+.row{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+p{
+  font-size: 1.3em;
+  color: black;
+}
+h2{
+  color: #76a5f3;
+  font-size: 1.8em;
+}
+
+/*Media Querie--*/
+
+@media screen and (max-width: 768px){
+  .navbar a{
+    margin-top: 12px;
+    font-size: 1.2em;
+}
+h1{
+    font-size: 1.6em;
+  }
+  h2{
+  text-align: center;
+ }
+}
+@media all and (min-width:769px) and (max-width:900px){
+ h1{
+    margin-top: 25px;
+    font-size: 1.6em;
+ }
+.navbar a{
+  margin-top: 12px;
+  font-size: 1.2em;
+}
+}
+@media all and (min-width:900px) and (max-width:1100px){
+.navbar a{
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+h1{
+  margin-top: 20px;
+  font-size: 2.3em;
+ }
+
+}
+ 
+

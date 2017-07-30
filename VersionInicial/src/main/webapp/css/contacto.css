@@ -1,0 +1,101 @@
+*{  border:0;
+    margin: 0;
+    padding: 0;
+}
+body{
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position:0px 0px;
+}
+header{
+  width: 100%;
+  border-bottom: 2px solid grey; 
+}
+.navbar{
+  width: 100%;
+  border-bottom: 2px solid grey;
+}
+.navbar a{
+  font-size: 1.3em;
+}
+.row{
+  margin: auto;
+  background-color: black;
+  margin-bottom: 50px;
+}
+.top-nav-right{
+  float:right;
+  margin-right: 40px;
+  padding-top:10px;
+}
+.logos img{
+  width: 30px;
+  height: 30px;
+}
+ol.breadcrumb{
+  background-color: black;
+}
+.dropdown-menu{
+  background-color: #fff;
+}
+.miga-de-pan a{
+  font-size: 1.5em;
+  color: grey;
+  text-decoration: none;
+}
+.miga-de-pan a:hover{
+  color: white;
+}
+.post-contenido{
+  margin-top: 60px;
+}
+.post p{
+  font-size: 1.3em;
+}
+form{
+  margin: auto;
+  margin-top: 30px;
+  background-color: black;
+}
+p{
+  color: #fff;
+}
+aside{
+  margin-top: 50px;
+}
+aside ul{
+  margin-top: 50px;
+}
+ul.contacto{
+  list-style: none;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+span , h5{
+  font-size: 1em;
+  color: #e79889;
+}
+
+/*Media Querie--*/
+
+@media screen and (max-width: 768px){
+  aside img{
+   width: 100%;
+   height: 100%;
+}
+ul.contacto{
+  list-style: none;
+  font-size: 1.2em;
+  color: #fff;
+}
+}
+
