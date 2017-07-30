@@ -4,13 +4,12 @@
   <meta charset="utf-8" />
   <title>Inicio</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <meta name="description" content="Inicio de la Web Oficial El Pelotazo" />
-  <meta name="keywords" content="web oficial El Pelotazo" />
+  <meta name="description" content="Inicio de la Web El Pelotazo" />
+  <meta name="keywords" content="El Pelotazo" />
   <link rel="stylesheet"  href="css/bootstrap.min.css"/>
-  <link rel="stylesheet"  href="css/index.css" type"text/css"/>
+  <link rel="stylesheet"  href="css/index.css" type="text/css"/>
   <link rel="stylesheet" href="css/estilocookies.css" type="text/css"/>
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
-  <link rel="shortcut icon" type="image/x-icon " href="favicon.ico"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/eskju.jquery.scrollflow.min.js"></script>
 
